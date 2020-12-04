@@ -5,7 +5,7 @@ using Microsoft.Win32;
 
 namespace OpenWindowsKeyViewer
 {
-    class Program
+    class OpenWindowsKeyViewer
     {
         private const string Charset = "BCDFGHJKMPQRTVWXY2346789";
         
