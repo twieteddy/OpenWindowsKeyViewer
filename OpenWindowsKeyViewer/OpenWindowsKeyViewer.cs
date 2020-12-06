@@ -38,9 +38,9 @@ namespace OpenWindowsKeyViewer
                 }
                 windowsKey.Insert(0, Charset[position]);
             }
-
+            
             return windowsKey
-                .Remove(position, 1)
+                .Remove(0, 1)
                 .Insert(position, "N")
                 .Insert(20, "-")
                 .Insert(15, "-")
